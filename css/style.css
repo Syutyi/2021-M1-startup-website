@@ -1,0 +1,25 @@
+/* Importing my fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;300;400&family=Raleway:wght@100;300;400;600;700&display=swap');
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/toolbar.css");
+@import url("components/card.css");
+
+header {
+	z-index: 2;
+}
+
+body {
+	font-family: font-family: 'Hahmlet', serif;
+	font-size: 18px;
+	background-color: white;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}

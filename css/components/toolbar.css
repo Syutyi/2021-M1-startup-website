@@ -1,0 +1,27 @@
+.toolbar-red {
+	color: white;
+	list-style: none;
+	position: fixed;
+	padding :10px;
+    top:0px;
+    left:0px;
+    margin: 0px;
+    background-color: #ff7878;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 98.63%;	
+    z-index: 2;
+    overflow: visible;
+}
+
+.toolbar-red a:visited, .toolbar-red a:link {
+	color: white;
+	text-shadow: 2px 1px 4px rgba(16,0,0,0.7);
+}
+
+.toolbar-red a:hover {
+	color : black;
+	text-decoration: underline;
+}

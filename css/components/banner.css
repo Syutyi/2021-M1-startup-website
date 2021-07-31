@@ -1,0 +1,49 @@
+.banner {
+	background-size: cover;
+	background-color: #e3e3e3;
+	background-position: center;
+	animation: fade 15s ease-in-out infinite both;
+	height: 650px;
+	z-index: 1;
+}
+
+@keyframes fade {
+	0%{background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%), url("../../images/photography.jpg"); opacity: 1;}
+	20%{background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%), url("../../images/coding.jpg"); opacity: 1;}
+	40%{background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%),url("../../images/consulting.jpg");opacity: 1;}
+	60%{background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%), url("../../images/analysis.jpg");opacity: 1;}
+	80%{background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%), url("../../images/teaching.jpg");opacity: 1;}
+	100%{background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%), url("../../images/photography.jpg");opacity: 1;}
+}
+
+
+
+.banner h1, h2 {
+	color : white;
+	padding-left :20%;
+	padding-right: 20%;
+	margin : auto;
+	text-shadow: 2px 1px 4px rgba(16,0,0,0.7);
+}
+
+.banner h1 {
+	font-size : 46px;
+	padding-top: 20%;
+	position: center;
+}
+
+.banner h2 {
+	font-weight: 400;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.banner:hover {
+	animation-play-state: paused;
+}
+
+.banner a {
+	position: center;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 20%;
+}
