@@ -10,7 +10,7 @@
 	align-items: center;
   justify-content: space-between;
  	padding: 20px;
-  flex-basis: 300px;
+  flex-basis: 300px;	
 	flex-grow: 1;
 	margin: 15px;
 	box-shadow: 1px 2px 30px 4px rgba(0,0,0,0.1);
@@ -29,4 +29,30 @@
 	padding-left: 20px;
 	font-size: 16px;
 	font-weight: 600;
+}
+
+.card:not(:hover) > .display-after {
+	display: none;
+}
+
+.card:hover > img {
+	display: none;
+}
+
+.card:hover > .display-before {
+	display: none;
+}
+
+.card:hover > .display-after {
+	display: all;
+	text-align: center;
+	color: white;
+}
+
+.card-turn-black {
+	height: 100px;
+}
+
+.card-turn-black:hover {
+	background-color: black;
 }
