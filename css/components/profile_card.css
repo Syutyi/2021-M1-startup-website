@@ -1,0 +1,17 @@
+#profile-container {
+	padding-top: 0%;
+	text-align: center;
+}
+
+#profile-container h1 {
+	color: #6b3434;
+}
+
+#profile-container img {
+	display: block;
+	margin: 5px auto;
+}
+
+#introduction {
+	margin-top: 30px;
+}

@@ -1,0 +1,7 @@
+.img-round, #img-profile {
+	border-radius: 50%;
+}
+
+#img-profile {
+	width: 200px;
+}

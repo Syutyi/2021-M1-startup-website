@@ -20,16 +20,15 @@
 
 .banner h1, h2 {
 	color : white;
-	padding-left :20%;
-	padding-right: 20%;
+	padding-left :10%;
+	padding-right: 10%;
 	margin : auto;
 	text-shadow: 2px 1px 4px rgba(16,0,0,0.7);
 }
 
 .banner h1 {
 	font-size : 46px;
-	padding-top: 20%;
-	position: center;
+	margin-bottom: 25px;
 }
 
 .banner h2 {
@@ -45,5 +44,5 @@
 .banner a {
 	position: center;
 	font-family: 'Raleway', sans-serif;
-	margin-left: 20%;
+	margin-left: 10%;
 }
