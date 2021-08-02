@@ -44,4 +44,5 @@
 
 #profile-container li {
 	display: flex;
+	text-align: left;
 }
