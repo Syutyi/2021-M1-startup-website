@@ -3,7 +3,7 @@
 	text-align: center;
 }
 
-#profile-container h1,h2 {
+#profile-container h1, #profile-container h2 {
 	color: #6b3434;
 }
 
@@ -17,11 +17,11 @@
 }
 
 #profile-container .cards .card {
-	padding-left: 50px;
+	padding-left: 40px;
 	height : 125px;
   	position: relative;
   	transform: translateZ(0);
-  	transition: black 1000ms;
+  		transition: black 1000ms;
 }
 
 #profile-container .cards .card:before {
@@ -42,4 +42,6 @@
   	transform: scaleX(1);
 }
 
-
+#profile-container li {
+	display: flex;
+}
