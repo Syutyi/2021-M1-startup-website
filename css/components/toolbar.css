@@ -5,15 +5,20 @@
 	padding :10px;
     top:0px;
     left:0px;
-    margin: 0px;
+    margin: auto 0px;
     background-color: #ff7878;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    align-items: left;
+    justify-content: space-around;
     width: 98.63%;	
     z-index: 2;
     overflow: visible;
+}
+
+.toolbar-element {
+    flex-basis: 100px;
+    margin-bottom: 7px;
 }
 
 .toolbar-red a:visited, .toolbar-red a:link {
@@ -23,6 +28,7 @@
 
 .toolbar-red a {
     font-size: 20px;
+    margin: auto 20px;
 }
 
 .toolbar-red a:hover {
