@@ -19,6 +19,7 @@
 .toolbar-red a:visited, .toolbar-red a:link {
 	color: white;
 	text-shadow: 2px 1px 4px rgba(16,0,0,0.7);
+    font-size: 17px;
 }
 
 .toolbar-red a:hover {
