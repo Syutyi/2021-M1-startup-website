@@ -19,9 +19,9 @@
 #profile-container .cards .card {
 	padding-left: 40px;
 	height : 125px;
-  	position: relative;
+	flex-basis: 360px;
   	transform: translateZ(0);
-  		transition: black 1000ms;
+  	transition: black 1000ms;
 }
 
 #profile-container .cards .card:before {
