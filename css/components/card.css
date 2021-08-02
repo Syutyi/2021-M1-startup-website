@@ -33,6 +33,7 @@
 
 .card:not(:hover) > .display-after {
 	display: none;
+	transition: color 0.3s ease;
 }
 
 .card:hover > img {
@@ -54,5 +55,20 @@
 }
 
 .card-turn-black:hover {
-	background-color: black;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 70%);
+	animation: flip-animation 0.8s;
+}
+
+
+@keyframes flip-animation {
+  0% {
+ 		background-image: none;
+    transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+  }
+  50% {
+    transform: scale(0.4) rotate3d(-1, 1, 0, 180deg);
+  }
+  100% {
+    transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+  }
 }

@@ -1,5 +1,6 @@
 .img-round, #img-profile {
 	border-radius: 50%;
+	box-shadow: 2px 2px 7px 4px #02111b;
 }
 
 #img-profile {
