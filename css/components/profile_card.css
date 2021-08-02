@@ -25,11 +25,11 @@
 }
 
 #profile-container .cards .card {
-	padding-left: 40px;
-	margin: auto 20px;
+	padding-left: 30px;
+	margin: auto 10px;
 	margin-bottom: 30px;
 	height: 150px;
-	flex-basis: 350px;
+	flex-basis: 380px;
   	transform: translateZ(0);
   	position: relative;
   	transition: black 1000ms;
@@ -59,3 +59,21 @@
 	display: flex;
 	text-align: left;
 }
+
+#profile-container li, #profile-container h3{
+	font-size: 18px;
+}
+
+#profile-container h2 {
+	font-size: 28px;
+}
+
+#profile-container h1 {
+	font-size: 36px;
+}
+
+#profile-card {
+	top: 0px;
+	position: relative;
+}
+
