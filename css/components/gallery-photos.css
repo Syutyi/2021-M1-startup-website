@@ -1,0 +1,90 @@
+.photo-group {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0%;
+	margin-top: 3%;
+}
+
+.photo-group-line {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	width: 98%;
+}
+
+.photo-group-square-right {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1%;
+	width: 39%;
+	height: 51.8%;
+}
+
+.photo-line {
+	display: flex;
+	height: 100%;
+}
+
+.photo-group-square-left {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 1%;
+	width: 59%;
+	height: 51.5%;	
+}
+
+.photo-square-up-right, .photo-square-up-left {
+	margin-bottom: 0.5%;
+}
+
+.photo-square-up-left, .photo-square-bottom-left {
+	margin-right: 1%;
+}
+
+#valentin-photo {
+	width : 60%;
+}
+
+#wangye-photo, #alexandre-photo, #navid-photo, #kim-son-photo {
+	width: 100%;
+}
+
+#christopher-photo, #jerry-photo, #lilian-photo, #kevin-photo {
+	width: 100%;
+}
+
+#ahmed-photo {
+	width: 40%;
+}
+
+#alexis-photo {
+	width : 100%;
+}
+
+#christopher-photo {
+	width: 102%;
+
+}
+
+#jerry-photo {
+	width: 99%;
+	margin-left: 2%;
+}
+
+#valentin-photo, #wangye-photo, #alexandre-photo, #navid-photo, #kim-son-photo, #christopher-photo, #jerry-photo, #lilian-photo, #kevin-photo,#ahmed-photo, #alexis-photo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+@media (max-width: 540px) {
+	.photo-group {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0%;
+	margin-top: 17%;
+	}
+}
